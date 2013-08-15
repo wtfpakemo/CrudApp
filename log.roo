@@ -1,0 +1,10 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-16 00:49:37
+project --topLevelPackage com.basic.crudapp --projectName CrudApp --java 7 --packaging WAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-08-16 00:50:28
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-16 00:51:54
+mongo setup --databaseName CrudAppDev --host localhost --port 27017
+entity mongo --class com.basic.crudapp.domain.Record --identifierType org.bson.types.ObjectId --testAutomatically
+repository mongo --interface com.basic.crudapp.repo.RecordRepo --entity ~.domain.Record
+json all --deepSerialize true
+web mvc json setup
+web mvc json all --package com.basic.crudapp.web
