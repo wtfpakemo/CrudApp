@@ -22,7 +22,7 @@ privileged aspect RecordIntegrationTest_Roo_IntegrationTest {
     
     declare @type: RecordIntegrationTest: @RunWith(SpringJUnit4ClassRunner.class);
     
-    declare @type: RecordIntegrationTest: @ContextConfiguration(locations = "classpath*:/META-INF/spring/testApplicationContext*.xml");
+    declare @type: RecordIntegrationTest: @ContextConfiguration(locations = "classpath*:/META-INF/spring/applicationContext*.xml");
     
     @Autowired
     RecordDataOnDemand RecordIntegrationTest.dod;
