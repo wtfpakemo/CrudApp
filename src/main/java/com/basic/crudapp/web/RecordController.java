@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RooWebJson(jsonObject = Record.class)
 @Controller
-@RequestMapping("/records")
+@RequestMapping("records")
 public class RecordController {
 }
