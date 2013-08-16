@@ -10,4 +10,6 @@
          Also registers default Formatters and Validators for use across all @Controllers -->
     <mvc:annotation-driven/>
     
+    <mvc:resources location="/" mapping="/**"/>
+    
 </beans>

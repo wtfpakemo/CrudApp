@@ -8,3 +8,9 @@ repository mongo --interface com.basic.crudapp.repo.RecordRepo --entity ~.domain
 json all --deepSerialize true
 web mvc json setup
 web mvc json all --package com.basic.crudapp.web
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-16 02:16:48
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-08-16 02:17:38
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-16 02:17:54
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-08-16 02:18:30
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-08-16 02:18:54
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-08-16 02:19:16
